@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La lupa</title>
+            <author>Giovanni Verga</author>
+            <respStmt>
+               <resp>Codifica di</resp>
+               <name>Denise Covone</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p></p>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson>
+               <person xml:id="NomePersona">
+                <persName>Lupa</persName>
+                  <note>Protagonista della novella, soprannominata così in quanto è una donna passionale, 
+                  una femme fatale che non ha paura dei giudizi delle persone che la circondano. 
+                  La Lupa è capace di stregare qualunque uomo incroci il suo sguardo. 
+                  È una donna che sa perfettamente ciò che vuole e che non si arrende di fronte a nessun ostacolo. 
+                  Può essere considerata una vera femminista, 
+                  poiché in un’epoca in cui il patriarcato plasmava le menti sia degli uomini che delle donne, 
+                  abolì gli stereotipi imposti dalla società.</note>
+
+                <persName>gnà Pina</persName>
+                  <note>Vero nome della protagonista. Ricorre poche volte nella novella, circa tre, a dimostrazione di quanto i giudizi influiscono sulla pelle di chi li riceve.</note>
+
+                <persName>Maricchia</persName>
+                  <note>Figlia della Lupa, incarna perfettamente il modello di donna imposto dalla chiesa. 
+                  Una donna completamente dedita alla cura della casa e dei propri figli.</note>
+                  
+                <persName>Nanni</persName>
+                  <note>Figura maschile principale, di cui è innamorata la Lupa, incarna gli ideali degli uomini dell’epoca ottocentesca, difatti, 
+                  assetato di denaro non pensa a un’unione per amore bensì mira solo alla dote di Maricchia, quindi a un'unione d'interessi. 
+                  Egli affianca la Lupa nel lavoro nei campi, cerca di resistere ai suoi tentativi di seduzione, ma alla fine cede.</note> 
+               
+               </person>
+
+            </listPerson>
+            
+            <listPlace>
+               <place xml:id="NomeLuogo">
+                  <placeName>Etna</placeName>
+                  <note>Vulcano attivo della Sicilia, 
+                  denominato anche "Mongibello". 
+                  Metaforicamente rappresenta una 'mamma' per i siciliani, cioè colei che li culla e li castiga quando ce n’è la necessità.</note>
+               </place>
+            </listPlace>
+         
+         </sourceDesc>
+      </fileDesc>
+      
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+           <p>Era alta, magra; aveva soltanto un seno fermo e vigoroso da bruna e pure non era più giovane; era pallida
+           come se avesse sempre addosso la malaria, e su quel pallore due occhi grandi così, e delle labbra fresche e
+           rosse, che vi mangiavano.</p>
+           <p>Al villaggio la chiamavano la <persName ref="Lupa">Lupa</persName> perché non era sazia giammai - di nulla.</p>
+           <p>Le donne si facevano la croce quando la vedevano passare, sola come una cagnaccia, con quell'andare randagio e sospettoso della <persName ref="Lupa">lupa</persName>
+           affamata; ella si <distinct ana="Metafora che indica l'atto sessuale">spolpava</distinct> i loro figliuoli e i loro mariti in un batter d'occhio, con le sue labbra rosse, 
+           e se li tirava dietro alla gonnella solamente a guardarli <seg ana="Espressione che mette in evidenzia il modo di ragionare delle donne siciliane, poichè in quanto superstiziose credono che lo sguardo della Lupa impersonifichi il male, o meglio dire il demonio, motivo per cui i suoi occhi hanno il potere di stregare e ammaliare gli uomini.">con quegli occhi da satanasso,</seg> fossero stati davanti all'altare
+           di Santa Agrippina.</p> 
+           <p>Per fortuna la <persName ref="Lupa">Lupa</persName> <seg ana="La protagonista non può recarsi in chiesa a causa della cattiva reputazione da 'diavolo' inflittale dalla popolazione; dato che è una tentatrice non è la benvenuta presso la casa di Dio.">non veniva mai in chiesa né a Pasqua, né a Natale, né per ascoltar messa, né per confessarsi.</seg></p>
+           <p>- Padre Angiolino di Santa Maria di Gesù, un vero servo di Dio, aveva persa l'anima per lei.</p>
+           <p><persName ref="Maricchia">Maricchia</persName>, poveretta, buona e brava ragazza, piangeva di nascosto, perché era figlia della <persName ref="Lupa">Lupa</persName>, e nessuno
+           l'avrebbe tolta in moglie, sebbene ci avesse la sua bella roba nel cassettone, e la sua buona terra al sole, 
+           come ogni altra ragazza del villaggio.</p>
+           <p>Una volta la <persName ref="Lupa">Lupa</persName> si innamorò di un bel ragazzo che era tornato da soldato, e mieteva il fieno con lei nelle
+           chiuse del notaro, ma proprio quello che si dice innamorarsi, <seg ana="Metafora che simboleggia il cuore della Lupa ardere di un desiderio indomabile.">sentirsene ardere le carni sotto al fustagno del
+           corpetto, e provare, fissandolo negli occhi, la sete che si ha nelle ore calde di giugno,</seg> in fondo alla pianura.</p>
+           <p>Ma colui seguitava a mietere tranquillamente col naso sui manipoli, e le diceva: - O che avete, <persName ref="gnà Pina">gnà Pina</persName>?</p>
+           <p>Nei campi immensi, dove scoppiettava soltanto il volo dei grilli, quando il sole batteva a piombo, la <persName ref="Lupa">Lupa</persName>
+           affastellava manipoli su manipoli, e covoni su covoni, senza stancarsi mai, senza rizzarsi un momento sulla
+           vita, senza accostare le labbra al fiasco, pur di stare sempre alle calcagna di <persName ref="Nanni">Nanni</persName>, che mieteva e mieteva, e
+           le domandava di quando in quando: - Che volete, <persName ref="gnà Pina">gnà Pina</persName>?</p>
+           <p>Una sera ella glielo disse, mentre gli uomini sonnecchiavano nell'aia, stanchi della lunga giornata, ed i cani
+           uggiolavano per la vasta campagna nera: - Te voglio! Te che sei bello come il sole, e dolce come il miele.</p>
+           <p>Voglio te!</p>
+           <p><seg ana="L'affermazione evidenzia che l'uomo è interessato solo al denaro, cioè alla dote di Maricchia. Egli non nutre nessun tipo di sentimento amoroso poichè Verga vuole mettere in evidenza la corruzione dell'uomo.">- Ed io invece voglio vostra figlia,</seg> che è zitella, rispose <persName ref="Nanni">Nanni</persName> ridendo.</p>
+           <p>La <persName ref="Lupa">Lupa</persName> si cacciò le mani nei capelli, grattandosi le tempie senza dir parola, e se ne andò, né più comparve
+           nell'aia. Ma in ottobre rivide <persName ref="Nanni">Nanni</persName>, al tempo che cavavano l'olio, perché egli lavorava accanto alla sua casa,
+           e lo scricchiolìo del torchio non la faceva dormire tutta notte.</p> 
+           <p> - Prendi il sacco delle ulive, disse alla figliuola, e vieni con me.</p>
+           <p><persName ref="Nanni">Nanni</persName> spingeva colla pala le ulive sotto la macina, e gridava ohi! alla mula perché non si arrestasse.</p>
+           <p>- La vuoi mia figlia <persName ref="Maricchia">Maricchia</persName>? gli domandò la <persName ref="gnà Pina">gnà Pina</persName>.</p> 
+           <p>- Cosa gli date a vostra figlia <persName ref="Maricchia">Maricchia</persName>? rispose <persName ref="Nanni">Nanni</persName>.</p> 
+           <p>- Essa ha la roba di suo padre, e dippiù io le dò la mia casa; a me mi basterà che mi lasciate un cantuccio nella cucina, per stendervi un po' di pagliericcio.</p> 
+           <p>- Se è così se ne può parlare a Natale, disse <persName ref="Nanni">Nanni</persName>.</p>
+           <p>- <persName ref="Nanni">Nanni</persName> era tutto unto e sudicio dell'olio e delle ulive messe a fermentare, e <persName ref="Maricchia">Maricchia</persName> non lo voleva a nessun patto; ma
+           sua madre l'afferrò pe' capelli, davanti al focolare, e le disse co' denti stretti: <seg ana="L'espressione mette in risalto il livello di disperazione della Lupa, disposta a tutto pur di tenere l'uomo vicino a sé.">- Se non lo pigli ti ammazzo!</seg></p>
+           <p>La <persName ref="Lupa">Lupa</persName> era quasi malata, e <seg ana="Proverbio che esplica lo stato di emarginazione della Lupa a cui viene sottoposta dalla gente del luogo, a causa della sua personalità fuori dagli schemi da femme fatale.">la gente andava dicendo che il diavolo quando invecchia si fa eremita.</seg></p> 
+           <p>Non andava più in qua e in là; non si metteva più sull'uscio, con quegli occhi da spiritata.</p>
+           <p>Suo genero, quando ella glieli piantava in faccia quegli occhi, si metteva a ridere, e cavava fuori <seg ana="L'espressione mette in risalto l'oggetto inteso come amuleto, infatti, simboleggia la superstizione dei siciliani.">l'abitino della Madonna per segnarsi.</seg></p>
+           <p><persName ref="Maricchia">Maricchia</persName> stava in casa ad allattare i figliuoli, e <seg ana="La citazione dimostra come il lavoro nei campi fosse di ambito prettamente maschile. Alle donne non era concesso avere i medesimi diritti, anche per questo motivo la Lupa viene disprezzata dalle altre donne, vittime anch'esse del pensiero patriarcale imposto dalla società e dalla chiesa.">sua madre andava nei campi, a lavorare cogli uomini, proprio come un uomo,</seg>
+           a sarchiare, a zappare, a governare le bestie, a potare le viti, fosse stato
+           greco e levante di gennaio, oppure scirocco di agosto, allorquando i muli lasciavano cader la testa
+           penzoloni, e gli uomini dormivano bocconi a ridosso del muro a tramontana.</p>
+           <p><seg ana="Proverbio siciliano che indica l'orario, tra le tre e le sei di pomeriggio, in cui le donne oneste restavano in casa, mentre la Lupa era in giro a 'divorare' gli uomini.">In quell'ora fra vespero e nona, in cui non ne va in volta femmina buona,</seg> la <persName ref="gnà Pina">gnà Pina</persName> era la sola anima viva che si vedesse errare per la campagna,
+           sui sassi infuocati delle viottole, fra le stoppie riarse dei campi immensi, che si perdevano nell'afa, lontan
+           lontano, verso l'<placeName ref="Etna">Etna</placeName> nebbioso, dove il cielo si aggravava sull'orizzonte.</p>
+           <p>- Svegliati! disse la <persName ref="Lupa">Lupa</persName> a <persName ref="Nanni">Nanni</persName> che dormiva nel fosso, accanto alla siepe polverosa, col capo fra le braccia.</p>
+           <p>Svegliati, che ti ho portato il vino per rinfrescarti la gola.</p>
+           <p><persName ref="Nanni">Nanni</persName> spalancò gli occhi imbambolati, fra veglia e sonno, trovandosela dinanzi ritta, pallida, col petto 
+           prepotente, e gli occhi neri come il carbone, e stese brancolando le mani.</p>
+           <p>-No! non ne va in volta femmina buona nell'ora fra vespero e nona! singhiozzava <persName ref="Nanni">Nanni</persName>, ricacciando la
+           faccia contro l'erba secca del fossato, in fondo in fondo, colle unghie nei capelli.</p>
+           <p>- Andatevene! Andatevene! non ci venite più nell'aia!</p>
+           <p>Ella se ne andava infatti, la <persName ref="Lupa">Lupa</persName>, riannodando le trecce superbe, guardando fisso dinanzi ai suoi passi nelle 
+           stoppie calde, cogli occhi neri come il carbone.</p>
+           <p><seg ana="A dimostrazione non solo dell'amore incestuoso fra i due che non si è consumato una sola volta, ma tante altre ancora; ma anche di come l'uomo non fosse capace a governare i propri istinti primordiali.">Ma nell'aia ci tornò delle altre volte,</seg> 
+           e <persName ref="Nanni">Nanni</persName> <seg ana="L'espressione enfatizza il desiderio sessuale che brucia non solo da parte della protagonista, ma anche di Nanni che non rifiuta mai gli incontri occasionali con la Lupa.">non le disse nulla;</seg> e quando tardava a venire, nell'ora fra
+           vespero e nona, egli andava ad aspettarla in cima alla viottola bianca e deserta, col sudore sulla fronte; - e
+           dopo si cacciava le mani nei capelli, e <seg ana="In realtà il desiderio d'averla lo consumava lentamente.">le ripeteva ogni volta: Andatevene! Andatevene! Non ci tornate più nell'aia!</seg></p> 
+          <p>- <persName ref="Maricchia">Maricchia</persName> piangeva notte e giorno, e alla madre le piantava in faccia gli occhi ardenti di lagrime e
+           di gelosia, come una lupacchiotta anch'essa, quando la vedeva tornare da' campi pallida e muta ogni volta.</p> 
+          <p>-Scellerata! le diceva. Mamma scellerata!</p>
+          <p>- Taci!</p>
+          <p>- Ladra! Ladra!</p>
+          <p>- Taci!</p>
+          <p>- Andrò dal brigadiere, andrò!</p>
+          <p>- Vacci!</p>
+          <p>E ci andò davvero, coi figli in collo, senza temere di nulla, e senza versare una lagrima, come una pazza,
+          perché adesso l'amava anche lei quel marito che le avevano dato per forza, unto e sudicio dalle ulive messe 
+          a fermentare.</p>
+          <p>Il brigadiere fece chiamare <persName ref="Nanni">Nanni</persName>, e lo minacciò della galera, e della forca.</p> 
+          <p><persName ref="Nanni">Nanni</persName> si diede a singhiozzare ed a strapparsi i capelli; non negò nulla, non tentò scolparsi.</p> 
+          <p><seg ana="L'affermazione mette in luce il fanatismo religioso presente in Sicilia. Infatti, il vittimismo di Nanni è giustificato dalla visione dell'uomo imposta dalla chiesa, basti pensare al fatto che fu Eva, dopo aver ceduto alle tentazioni di Satana, a convincere Adamo a mangiare la mela, cioè ad avere un rapporto sessuale. La donna, dunque, viene percepita come un diavolo travestito da angelo pronto a farti cadere in tentazione.">- È la tentazione! diceva; è la tentazione dell'inferno!</seg> si buttò ai piedi del brigadiere supplicandolo di mandarlo in galera.</p>
+          <p>- Per carità, signor brigadiere, levatemi da questo inferno! fatemi ammazzare, mandatemi in prigione; non 
+          me la lasciate veder più, mai! mai!</p>
+          <p>-No! rispose però la <persName ref="Lupa">Lupa</persName> al brigadiere. Io mi son riserbato un cantuccio della cucina per dormirvi, quando 
+          gli ho data la mia casa in dote. La casa è mia. Non voglio andarmene!</p>
+          <p>Poco dopo, <persName ref="Nanni">Nanni</persName> s'ebbe nel petto un calcio dal mulo e fu per morire; ma il parroco ricusò di portargli il
+          Signore se la <persName ref="Lupa">Lupa</persName> non usciva di casa.</p>
+          <p>La <persName ref="Lupa">Lupa</persName> se ne andò, e suo genero allora si poté preparare ad andarsene
+          anche lui da buon cristiano; si confessò e comunicò con tali segni di pentimento e di contrizione che tutti i
+          vicini e i curiosi piangevano davanti al letto del moribondo.</p>
+          <p>E meglio sarebbe stato per lui che fosse morto in quel tempo, prima che <seg ana="Il diavolo rappresenta la Lupa e la sua sete di lussuria insaziabile.">il diavolo tornasse a tentarlo e a ficcarglisi nell'anima e nel corpo</seg> quando fu guarito.</p>
+          <p>- Lasciatemi stare! diceva alla <persName ref="Lupa">Lupa</persName>; per carità, lasciatemi in pace! Io ho visto la morte cogli occhi!</p>
+          <p>La povera <persName ref="Maricchia">Maricchia</persName> non fa che disperarsi. Ora tutto il paese lo sa! Quando non vi vedo è meglio per voi e per me...</p>
+          <p>Ed avrebbe voluto strapparsi gli occhi per non vedere quelli della <persName ref="Lupa">Lupa</persName>, che quando gli si ficcavano ne' suoi
+          gli facevano perdere l'anima ed il corpo. <seg ana="Metafora che simboleggia il sortilegio passionale lanciato dalla Lupa su Nanni, il che contribuisce ad avere una visione della protagonista etichettata come strega.">Non sapeva più che fare per svincolarsi dall'incantesimo.</seg></p>
+          <p><seg ana="Usanza d'epoca medievale, lo scopo era quello di pregare per le anime del Purgatorio, affinchè si possa salvare la propria anima.">Pagò delle messe alle anime del Purgatorio</seg> e andò a chiedere aiuto al parroco e al brigadiere.</p> 
+          <p>A Pasqua andò a confessarsi, e fece pubblicamente sei palmi di lingua a strasciconi sui ciottoli del sacrato innanzi alla chiesa,
+          in penitenza, e poi, come la <persName ref="Lupa">Lupa</persName> tornava a tentarlo:
+          - Sentite! le disse, non ci venite più nell'aia, perché <seg ana="Evoluzione del personaggio di Nanni da vittima a carnefice. Evidenzia la superiorità percepita dall'uomo sulla donna, al punto da sentirsi autorizzato a toglierle la vita.">se tornate a cercarmi, com'è vero Iddio, vi ammazzo!</seg></p>
+          <p>- Ammazzami, rispose la <persName ref="Lupa">Lupa</persName>, che non me ne importa; ma senza di te non voglio starci.</p>
+          <p>Ei come la scorse da lontano, in mezzo a' seminati verdi, lasciò di zappare la vigna, e andò a staccare la scure dall'olmo.</p> 
+          <p>La <persName ref="Lupa">Lupa</persName> lo vide venire, pallido e stralunato, colla scure che luccicava al sole, e non si arretrò di un
+          sol passo, non chinò gli occhi, seguitò ad andargli incontro, con le mani piene di manipoli di papaveri rossi,
+          e mangiandoselo con gli occhi neri.</p>
+          <p>- Ah! Malanno all'anima vostra! balbettò <persName ref="Nanni">Nanni</persName>.</p> 
+      </body>
+   </text>
+</TEI>
